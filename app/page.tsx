@@ -111,7 +111,7 @@ export default function Home() {
                 { category: "Backend", icon: <Terminal size={16} />, items: ["PHP", "C#", "Java", "Python"] },
                 { category: "Database", icon: <Database size={16} />, items: ["SQL"] },
                 { category: "Tools", icon: <Code2 size={16} />, items: ["Git", "Docker", "Figma"] },
-                { category: "AI & Productivity", icon: <Sparkles size={16} />, items: ["Gemini", "ChatGPT", "Claude", "LLM-assisted Development"] },
+                { category: "AI & LLM-assisted", icon: <Sparkles size={16} />, items: ["Gemini", "ChatGPT", "Claude"] },
                 { category: "Other", icon: <Cpu size={16} />, items: ["IoT"] },
               ].map((skill, index) => (
                 <div
