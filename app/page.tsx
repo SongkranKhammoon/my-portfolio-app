@@ -202,7 +202,6 @@ export default function Home() {
                     <h4 className="font-semibold text-gray-200 group-hover:text-purple-400 transition-colors font-kanit text-lg">
                       {project.title}
                     </h4>
-                    <ExternalLink size={16} className="text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
                   <p className="text-sm text-gray-400 mb-3 font-light">{project.description}</p>
                   <div className="flex gap-2">
@@ -241,15 +240,6 @@ export default function Home() {
                     <Mail size={18} />
                   </div>
                   <span className="font-medium text-sm break-all tracking-wide group-hover/link:translate-x-1 transition-transform">songkrankhammoon@gmail.com</span>
-                </a>
-              </div>
-
-              <div className="flex gap-3 mt-6 relative z-10">
-                <a href="#" className="bg-white/20 p-2.5 rounded-full hover:bg-white/30 hover:scale-110 hover:rotate-12 transition-all backdrop-blur-sm">
-                  <Github size={20} />
-                </a>
-                <a href="#" className="bg-white/20 p-2.5 rounded-full hover:bg-white/30 hover:scale-110 hover:-rotate-12 transition-all backdrop-blur-sm">
-                  <Linkedin size={20} />
                 </a>
               </div>
             </div>
